@@ -1,0 +1,6 @@
+hub BoneRegulome
+shortLabel BoneRegulome
+longLabel UCSC BoneRegulome Hub
+genomesFile genomes.txt
+email salaheddine.ali@charite.de
+descriptionUrl https://github.com/drsalaheddineali/BoneRegulome

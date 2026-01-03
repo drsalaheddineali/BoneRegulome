@@ -12,7 +12,8 @@ shortLabel OC H3K27ac
 longLabel OC-lineage H3K27ac (MO, pOC, OC)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -54,7 +55,8 @@ shortLabel OC H3K4me1
 longLabel OC-lineage H3K4me1 (MO, pOC, OC)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -96,7 +98,8 @@ shortLabel OC H3K4me3
 longLabel OC-lineage H3K4me3 (MO, pOC, OC)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -138,7 +141,8 @@ shortLabel OC H3K27me3
 longLabel OC-lineage H3K27me3 (MO, pOC, OC)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -180,7 +184,8 @@ shortLabel OC ATAC
 longLabel OC-lineage ATAC-seq (MO, pOC, OC)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -225,7 +230,8 @@ shortLabel OB H3K27ac
 longLabel OB-lineage H3K27ac (MSC, OB, dOB)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -267,7 +273,8 @@ shortLabel OB H3K4me1
 longLabel OB-lineage H3K4me1 (MSC, OB, dOB)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -309,7 +316,8 @@ shortLabel OB H3K4me3
 longLabel OB-lineage H3K4me3 (MSC, OB, dOB)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full
@@ -351,7 +359,8 @@ shortLabel OB ATAC
 longLabel OB-lineage ATAC-seq (MSC, OB, dOB)
 compositeTrack on
 type bigWig
-autoScale off
+autoScale off 
+smoothingWindow 2
 viewLimits 0:2
 alwaysZero on
 visibility full

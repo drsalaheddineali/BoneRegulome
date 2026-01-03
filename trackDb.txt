@@ -1,372 +1,216 @@
 ################################################################################
 # BoneRegulome Track Hub - hg38
-# Colors: OC-lineage = greens, OB-lineage = blues, Hi-C = red (pending)
 ################################################################################
 
 ########################
 # OC Differentiation
 ########################
 
-# --- MO (light green) ---
-track MO_H3K4me1
-shortLabel MO H3K4me1
-longLabel MO H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358edf8b8a86dfff72/display?to_ext=bigwig
-color 144,238,144
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 1.01
-
-track MO_H3K4me3
-shortLabel MO H3K4me3
-longLabel MO H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d7cdb39e4b2eaa85/display?to_ext=bigwig
-color 144,238,144
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 1.02
-
-track MO_H3K27ac
-shortLabel MO H3K27ac
-longLabel MO H3K27ac ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356061396cfddaf14c/display?to_ext=bigwig
-color 144,238,144
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 1.03
-
-track MO_H3K27me3
-shortLabel MO H3K27me3
-longLabel MO H3K27me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353dc4ac5288119131/display?to_ext=bigwig
-color 144,238,144
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 1.04
-
-track MO_ATAC
-shortLabel MO ATAC
-longLabel MO ATAC-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f52ee55b43a7ffbf/display?to_ext=bigwig
-color 144,238,144
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 1.05
-
-
-# --- pOC (medium green) ---
-track pOC_H3K4me1
-shortLabel pOC H3K4me1
-longLabel pOC H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354489070c8d0852f2/display?to_ext=bigwig
-color 60,179,113
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 2.01
-
-track pOC_H3K4me3
-shortLabel pOC H3K4me3
-longLabel pOC H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213531d0251e106094ed/display?to_ext=bigwig
-color 60,179,113
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 2.02
-
-track pOC_H3K27ac
-shortLabel pOC H3K27ac
-longLabel pOC H3K27ac ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f27bc84111bb31c5/display?to_ext=bigwig
-color 60,179,113
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 2.03
-
-track pOC_H3K27me3
-shortLabel pOC H3K27me3
-longLabel pOC H3K27me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da0a8815558c3453/display?to_ext=bigwig
-color 60,179,113
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 2.04
-
-track pOC_ATAC
-shortLabel pOC ATAC
-longLabel pOC ATAC-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dc0fa648a0de65b0/display?to_ext=bigwig
-color 60,179,113
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 2.05
-
-
-# --- OC (dark green) ---
-track OC_H3K4me1
-shortLabel OC H3K4me1
-longLabel OC H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ae9c313d2406e44d/display?to_ext=bigwig
-color 0,100,0
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 3.01
-
-track OC_H3K4me3
-shortLabel OC H3K4me3
-longLabel OC H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350e9c78dec7b2b0cb/display?to_ext=bigwig
-color 0,100,0
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 3.02
-
-track OC_H3K27ac
+# ========== H3K27ac ==========
+track OCdiff_H3K27ac
 shortLabel OC H3K27ac
-longLabel OC H3K27ac ChIP-seq (bigWig)
+longLabel OC-lineage H3K27ac (MO, pOC, OC)
+compositeTrack on
 type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e206b63913d93970/display?to_ext=bigwig
-color 0,100,0
-autoScale on
+autoScale off
+viewLimits 0:2
+alwaysZero on
 visibility full
 maxHeightPixels 100:40:20
-bigWigSummary on
-priority 3.03
+dragAndDrop subTracks
+subGroup1 cell Cell_type MO=MO pOC=pOC OC=OC
+dimensions dimX=cell
+sortOrder cell=+ 
+priority 10
 
-track OC_H3K27me3
+    track MO_H3K27ac
+    parent OCdiff_H3K27ac
+    shortLabel MO
+    longLabel MO H3K27ac ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356061396cfddaf14c/display?to_ext=bigwig
+    color 144,238,144
+
+    track pOC_H3K27ac
+    parent OCdiff_H3K27ac
+    shortLabel pOC
+    longLabel pOC H3K27ac ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f27bc84111bb31c5/display?to_ext=bigwig
+    color 60,179,113
+
+    track OC_H3K27ac
+    parent OCdiff_H3K27ac
+    shortLabel OC
+    longLabel OC H3K27ac ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e206b63913d93970/display?to_ext=bigwig
+    color 0,100,0
+
+
+# ========== H3K4me1 ==========
+track OCdiff_H3K4me1
+shortLabel OC H3K4me1
+longLabel OC-lineage H3K4me1 (MO, pOC, OC)
+compositeTrack on
+type bigWig
+autoScale off
+viewLimits 0:2
+alwaysZero on
+visibility full
+maxHeightPixels 100:40:20
+dragAndDrop subTracks
+subGroup1 cell Cell_type MO=MO pOC=pOC OC=OC
+dimensions dimX=cell
+sortOrder cell=+
+priority 11
+
+    track MO_H3K4me1
+    parent OCdiff_H3K4me1
+    shortLabel MO
+    longLabel MO H3K4me1 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358edf8b8a86dfff72/display?to_ext=bigwig
+    color 144,238,144
+
+    track pOC_H3K4me1
+    parent OCdiff_H3K4me1
+    shortLabel pOC
+    longLabel pOC H3K4me1 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354489070c8d0852f2/display?to_ext=bigwig
+    color 60,179,113
+
+    track OC_H3K4me1
+    parent OCdiff_H3K4me1
+    shortLabel OC
+    longLabel OC H3K4me1 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ae9c313d2406e44d/display?to_ext=bigwig
+    color 0,100,0
+
+
+# ========== H3K4me3 ==========
+track OCdiff_H3K4me3
+shortLabel OC H3K4me3
+longLabel OC-lineage H3K4me3 (MO, pOC, OC)
+compositeTrack on
+type bigWig
+autoScale off
+viewLimits 0:2
+alwaysZero on
+visibility full
+maxHeightPixels 100:40:20
+dragAndDrop subTracks
+subGroup1 cell Cell_type MO=MO pOC=pOC OC=OC
+dimensions dimX=cell
+sortOrder cell=+
+priority 12
+
+    track MO_H3K4me3
+    parent OCdiff_H3K4me3
+    shortLabel MO
+    longLabel MO H3K4me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d7cdb39e4b2eaa85/display?to_ext=bigwig
+    color 144,238,144
+
+    track pOC_H3K4me3
+    parent OCdiff_H3K4me3
+    shortLabel pOC
+    longLabel pOC H3K4me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213531d0251e106094ed/display?to_ext=bigwig
+    color 60,179,113
+
+    track OC_H3K4me3
+    parent OCdiff_H3K4me3
+    shortLabel OC
+    longLabel OC H3K4me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350e9c78dec7b2b0cb/display?to_ext=bigwig
+    color 0,100,0
+
+
+# ========== H3K27me3 ==========
+track OCdiff_H3K27me3
 shortLabel OC H3K27me3
-longLabel OC H3K27me3 ChIP-seq (bigWig)
+longLabel OC-lineage H3K27me3 (MO, pOC, OC)
+compositeTrack on
 type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213578329e2cd0551c7c/display?to_ext=bigwig
-color 0,100,0
-autoScale on
+autoScale off
+viewLimits 0:2
+alwaysZero on
 visibility full
 maxHeightPixels 100:40:20
-bigWigSummary on
-priority 3.04
+dragAndDrop subTracks
+subGroup1 cell Cell_type MO=MO pOC=pOC OC=OC
+dimensions dimX=cell
+sortOrder cell=+
+priority 13
 
-track OC_ATAC
+    track MO_H3K27me3
+    parent OCdiff_H3K27me3
+    shortLabel MO
+    longLabel MO H3K27me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353dc4ac5288119131/display?to_ext=bigwig
+    color 144,238,144
+
+    track pOC_H3K27me3
+    parent OCdiff_H3K27me3
+    shortLabel pOC
+    longLabel pOC H3K27me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da0a8815558c3453/display?to_ext=bigwig
+    color 60,179,113
+
+    track OC_H3K27me3
+    parent OCdiff_H3K27me3
+    shortLabel OC
+    longLabel OC H3K27me3 ChIP-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213578329e2cd0551c7c/display?to_ext=bigwig
+    color 0,100,0
+
+
+# ========== ATAC ==========
+track OCdiff_ATAC
 shortLabel OC ATAC
-longLabel OC ATAC-seq (bigWig)
+longLabel OC-lineage ATAC-seq (MO, pOC, OC)
+compositeTrack on
 type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df7338554c0bee6f/display?to_ext=bigwig
-color 0,100,0
-autoScale on
+autoScale off
+viewLimits 0:2
+alwaysZero on
 visibility full
 maxHeightPixels 100:40:20
-bigWigSummary on
-priority 3.05
+dragAndDrop subTracks
+subGroup1 cell Cell_type MO=MO pOC=pOC OC=OC
+dimensions dimX=cell
+sortOrder cell=+
+priority 14
 
+    track MO_ATAC
+    parent OCdiff_ATAC
+    shortLabel MO
+    longLabel MO ATAC-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f52ee55b43a7ffbf/display?to_ext=bigwig
+    color 144,238,144
 
-# --- OC Hi-C (placeholder) ---
-# Add once you have a .hic or .cool/.mcool served via HTTP(s).
-# If you later provide a .hic file URL, UCSC supports type hic (Track Hub).
-#
-# track OC_HiC
-# shortLabel OC Hi-C
-# longLabel OC Hi-C (pending)
-# type hic
-# bigDataUrl https://yourserver/path/OC.hic
-# color 220,20,60
-# visibility dense
-# priority 3.10
+    track pOC_ATAC
+    parent OCdiff_ATAC
+    shortLabel pOC
+    longLabel pOC ATAC-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dc0fa648a0de65b0/display?to_ext=bigwig
+    color 60,179,113
 
-
-########################
-# OB Differentiation
-########################
-
-# --- MSC (light blue) ---
-track MSC_H3K4me1
-shortLabel MSC H3K4me1
-longLabel MSC H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d36d6e0a5d5c58a7/display?to_ext=bigwig
-color 173,216,230
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 4.01
-
-track MSC_H3K4me3
-shortLabel MSC H3K4me3
-longLabel MSC H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da2f39ac1c6c1223/display?to_ext=bigwig
-color 173,216,230
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 4.02
-
-track MSC_H3K27ac
-shortLabel MSC H3K27ac
-longLabel MSC H3K27ac ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213540caf8fc0f4174fb/display?to_ext=bigwig
-color 173,216,230
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 4.03
-
-track MSC_ATAC
-shortLabel MSC ATAC
-longLabel MSC ATAC-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213585860a8cdc9d420e/display?to_ext=bigwig
-color 173,216,230
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 4.04
-
-
-# --- OB (medium blue) ---
-track OB_H3K4me1
-shortLabel OB H3K4me1
-longLabel OB H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c426ad8d5a62b539/display?to_ext=bigwig
-color 70,130,180
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 5.01
-
-track OB_H3K4me3
-shortLabel OB H3K4me3
-longLabel OB H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355eb623cfc0cfd2e7/display?to_ext=bigwig
-color 70,130,180
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 5.02
-
-track OB_H3K27ac
-shortLabel OB H3K27ac
-longLabel OB H3K27ac ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350d50fb6dae20b16c/display?to_ext=bigwig
-color 70,130,180
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 5.03
-
-track OB_ATAC
-shortLabel OB ATAC
-longLabel OB ATAC-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353682c0fd52e6d959/display?to_ext=bigwig
-color 70,130,180
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 5.04
-
-
-# --- dOB (dark blue) ---
-track dOB_H3K4me1
-shortLabel dOB H3K4me1
-longLabel dOB H3K4me1 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d5a7bd8ed2a737b0/display?to_ext=bigwig
-color 25,25,112
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 6.01
-
-track dOB_H3K4me3
-shortLabel dOB H3K4me3
-longLabel dOB H3K4me3 ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350c4df5c38939ba6d/display?to_ext=bigwig
-color 25,25,112
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 6.02
-
-track dOB_H3K27ac
-shortLabel dOB H3K27ac
-longLabel dOB H3K27ac ChIP-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b1c66b5dcaa6cf16/display?to_ext=bigwig
-color 25,25,112
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 6.03
-
-track dOB_ATAC
-shortLabel dOB ATAC
-longLabel dOB ATAC-seq (bigWig)
-type bigWig
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355eeaec1108ca4337/display?to_ext=bigwig
-color 25,25,112
-autoScale on
-visibility full
-maxHeightPixels 100:40:20
-bigWigSummary on
-priority 6.04
-
-
-# --- dOB Hi-C (placeholder) ---
-# track dOB_HiC
-# shortLabel dOB Hi-C
-# longLabel dOB Hi-C (pending)
-# type hic
-# bigDataUrl https://yourserver/path/dOB.hic
-# color 220,20,60
-# visibility dense
-# priority 6.10
+    track OC_ATAC
+    parent OCdiff_ATAC
+    shortLabel OC
+    longLabel OC ATAC-seq
+    type bigWig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df7338554c0bee6f/display?to_ext=bigwig
+    color 0,100,0

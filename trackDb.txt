@@ -26,7 +26,7 @@ priority 10
 
     track MO_H3K27ac
     parent OCdiff_H3K27ac
-    shortLabel MO
+    shortLabel K27ac_MO
     longLabel MO H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356061396cfddaf14c/display?to_ext=bigwig
@@ -34,7 +34,7 @@ priority 10
 
     track pOC_H3K27ac
     parent OCdiff_H3K27ac
-    shortLabel pOC
+    shortLabel K27ac_pOC
     longLabel pOC H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f27bc84111bb31c5/display?to_ext=bigwig
@@ -42,7 +42,7 @@ priority 10
 
     track OC_H3K27ac
     parent OCdiff_H3K27ac
-    shortLabel OC
+    shortLabel K27ac_OC
     longLabel OC H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e206b63913d93970/display?to_ext=bigwig
@@ -69,7 +69,7 @@ priority 11
 
     track MO_H3K4me1
     parent OCdiff_H3K4me1
-    shortLabel MO
+    shortLabel K4me1_MO
     longLabel MO H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358edf8b8a86dfff72/display?to_ext=bigwig
@@ -77,7 +77,7 @@ priority 11
 
     track pOC_H3K4me1
     parent OCdiff_H3K4me1
-    shortLabel pOC
+    shortLabel K4me1_pOC
     longLabel pOC H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354489070c8d0852f2/display?to_ext=bigwig
@@ -85,7 +85,7 @@ priority 11
 
     track OC_H3K4me1
     parent OCdiff_H3K4me1
-    shortLabel OC
+    shortLabel K4me1_OC
     longLabel OC H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ae9c313d2406e44d/display?to_ext=bigwig
@@ -112,7 +112,7 @@ priority 12
 
     track MO_H3K4me3
     parent OCdiff_H3K4me3
-    shortLabel MO
+    shortLabel K4me3_MO
     longLabel MO H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d7cdb39e4b2eaa85/display?to_ext=bigwig
@@ -120,7 +120,7 @@ priority 12
 
     track pOC_H3K4me3
     parent OCdiff_H3K4me3
-    shortLabel pOC
+    shortLabel K4me3_pOC
     longLabel pOC H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213531d0251e106094ed/display?to_ext=bigwig
@@ -128,7 +128,7 @@ priority 12
 
     track OC_H3K4me3
     parent OCdiff_H3K4me3
-    shortLabel OC
+    shortLabel K4me3_OC
     longLabel OC H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350e9c78dec7b2b0cb/display?to_ext=bigwig
@@ -155,7 +155,7 @@ priority 13
 
     track MO_H3K27me3
     parent OCdiff_H3K27me3
-    shortLabel MO
+    shortLabel K27me3_MO
     longLabel MO H3K27me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353dc4ac5288119131/display?to_ext=bigwig
@@ -163,7 +163,7 @@ priority 13
 
     track pOC_H3K27me3
     parent OCdiff_H3K27me3
-    shortLabel pOC
+    shortLabel K27me3_pOC
     longLabel pOC H3K27me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da0a8815558c3453/display?to_ext=bigwig
@@ -171,7 +171,7 @@ priority 13
 
     track OC_H3K27me3
     parent OCdiff_H3K27me3
-    shortLabel OC
+    shortLabel K27me3_OC
     longLabel OC H3K27me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213578329e2cd0551c7c/display?to_ext=bigwig
@@ -198,7 +198,7 @@ priority 14
 
     track MO_ATAC
     parent OCdiff_ATAC
-    shortLabel MO
+    shortLabel ATAC_MO
     longLabel MO ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f52ee55b43a7ffbf/display?to_ext=bigwig
@@ -206,7 +206,7 @@ priority 14
 
     track pOC_ATAC
     parent OCdiff_ATAC
-    shortLabel pOC
+    shortLabel ATAC_pOC
     longLabel pOC ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dc0fa648a0de65b0/display?to_ext=bigwig
@@ -214,7 +214,7 @@ priority 14
 
     track OC_ATAC
     parent OCdiff_ATAC
-    shortLabel OC
+    shortLabel ATAC_OC
     longLabel OC ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df7338554c0bee6f/display?to_ext=bigwig
@@ -244,7 +244,7 @@ priority 20
 
     track MSC_H3K27ac
     parent OBdiff_H3K27ac
-    shortLabel MSC
+    shortLabel K27ac_MSC
     longLabel MSC H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213540caf8fc0f4174fb/display?to_ext=bigwig
@@ -252,7 +252,7 @@ priority 20
 
     track OB_H3K27ac
     parent OBdiff_H3K27ac
-    shortLabel OB
+    shortLabel K27ac_OB
     longLabel OB H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350d50fb6dae20b16c/display?to_ext=bigwig
@@ -260,7 +260,7 @@ priority 20
 
     track dOB_H3K27ac
     parent OBdiff_H3K27ac
-    shortLabel dOB
+    shortLabel K27ac_dOB
     longLabel dOB H3K27ac ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b1c66b5dcaa6cf16/display?to_ext=bigwig
@@ -287,7 +287,7 @@ priority 21
 
     track MSC_H3K4me1
     parent OBdiff_H3K4me1
-    shortLabel MSC
+    shortLabel K4me1_MSC
     longLabel MSC H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d36d6e0a5d5c58a7/display?to_ext=bigwig
@@ -295,7 +295,7 @@ priority 21
 
     track OB_H3K4me1
     parent OBdiff_H3K4me1
-    shortLabel OB
+    shortLabel K4me1_OB
     longLabel OB H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c426ad8d5a62b539/display?to_ext=bigwig
@@ -303,7 +303,7 @@ priority 21
 
     track dOB_H3K4me1
     parent OBdiff_H3K4me1
-    shortLabel dOB
+    shortLabel K4me1_dOB
     longLabel dOB H3K4me1 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d5a7bd8ed2a737b0/display?to_ext=bigwig
@@ -330,7 +330,7 @@ priority 22
 
     track MSC_H3K4me3
     parent OBdiff_H3K4me3
-    shortLabel MSC
+    shortLabel K4me3_MSC
     longLabel MSC H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135da2f39ac1c6c1223/display?to_ext=bigwig
@@ -338,7 +338,7 @@ priority 22
 
     track OB_H3K4me3
     parent OBdiff_H3K4me3
-    shortLabel OB
+    shortLabel K4me3_OB
     longLabel OB H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355eb623cfc0cfd2e7/display?to_ext=bigwig
@@ -346,7 +346,7 @@ priority 22
 
     track dOB_H3K4me3
     parent OBdiff_H3K4me3
-    shortLabel dOB
+    shortLabel K4me3_dOB
     longLabel dOB H3K4me3 ChIP-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350c4df5c38939ba6d/display?to_ext=bigwig
@@ -373,7 +373,7 @@ priority 23
 
     track MSC_ATAC
     parent OBdiff_ATAC
-    shortLabel MSC
+    shortLabel ATAC_MSC
     longLabel MSC ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213585860a8cdc9d420e/display?to_ext=bigwig
@@ -381,7 +381,7 @@ priority 23
 
     track OB_ATAC
     parent OBdiff_ATAC
-    shortLabel OB
+    shortLabel ATAC_OB
     longLabel OB ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353682c0fd52e6d959/display?to_ext=bigwig
@@ -389,7 +389,7 @@ priority 23
 
     track dOB_ATAC
     parent OBdiff_ATAC
-    shortLabel dOB
+    shortLabel ATAC_dOB
     longLabel dOB ATAC-seq
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355eeaec1108ca4337/display?to_ext=bigwig

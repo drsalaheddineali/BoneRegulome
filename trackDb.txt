@@ -406,7 +406,7 @@ track OCdiff_CREs
 shortLabel OC CREs
 longLabel OC-lineage CREs (MO, pOC, OC) split by CRE type
 compositeTrack on
-type bigBed
+type bigBed 6
 visibility dense
 dragAndDrop subTracks
 # two-dimensional matrix: cell x CRE type
@@ -421,7 +421,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO AP
     longLabel MO Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c6ba001d25325f36/display?to_ext=bed6
     subGroups cell=MO cre=AP
     color 178,24,43
@@ -430,7 +430,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO PP
     longLabel MO Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213597da45fa6d0c223a/display?to_ext=bed6
     subGroups cell=MO cre=PP
     color 239,138,98
@@ -439,7 +439,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO AE
     longLabel MO Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c9b4ef0605b8ab10/display?to_ext=bed6
     subGroups cell=MO cre=AE
     color 199,233,192
@@ -448,7 +448,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO PE
     longLabel MO Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b9e4f262faa0cb0a/display?to_ext=bed6
     subGroups cell=MO cre=PE
     color 217,217,217
@@ -457,7 +457,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO IE
     longLabel MO Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fe421800994c97a8/display?to_ext=bed6
     subGroups cell=MO cre=IE
     color 120,120,120
@@ -466,7 +466,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel MO SE
     longLabel MO Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135374c68f249af40ed/display?to_ext=bed6
     subGroups cell=MO cre=SE
     color 106,61,154
@@ -477,7 +477,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC AP
     longLabel pOC Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135144a5e7f9a608d08/display?to_ext=bed6
     subGroups cell=pOC cre=AP
     color 178,24,43
@@ -486,7 +486,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC PP
     longLabel pOC Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359685d1653ee90a89/display?to_ext=bed6
     subGroups cell=pOC cre=PP
     color 239,138,98
@@ -495,7 +495,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC AE
     longLabel pOC Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356f8f500f5ec13850/display?to_ext=bed6
     subGroups cell=pOC cre=AE
     color 116,196,118
@@ -504,7 +504,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC PE
     longLabel pOC Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213584d8f8422e70bbbc/display?to_ext=bed6
     subGroups cell=pOC cre=PE
     color 217,217,217
@@ -513,7 +513,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC IE
     longLabel pOC Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135453b52e22089ba10/display?to_ext=bed6
     subGroups cell=pOC cre=IE
     color 120,120,120
@@ -522,7 +522,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel pOC SE
     longLabel pOC Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b92bb3292198ee77/display?to_ext=bed6
     subGroups cell=pOC cre=SE
     color 106,61,154
@@ -533,7 +533,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC AP
     longLabel OC Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e2129fedeb18a2b9/display?to_ext=bed6
     subGroups cell=OC cre=AP
     color 178,24,43
@@ -542,7 +542,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC PP
     longLabel OC Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213510ab8ae0eedf309a/display?to_ext=bed6
     subGroups cell=OC cre=PP
     color 239,138,98
@@ -551,7 +551,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC AE
     longLabel OC Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213516b1345e1b31b68a/display?to_ext=bed6
     subGroups cell=OC cre=AE
     color 35,139,69
@@ -560,7 +560,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC PE
     longLabel OC Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213523827796d71a0d26/display?to_ext=bed6
     subGroups cell=OC cre=PE
     color 217,217,217
@@ -569,7 +569,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC IE
     longLabel OC Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dc82f38b5afd0617/display?to_ext=bed6
     subGroups cell=OC cre=IE
     color 120,120,120
@@ -578,7 +578,7 @@ priority 15
     parent OCdiff_CREs
     shortLabel OC SE
     longLabel OC Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351d85c13cd58aaaf9/display?to_ext=bed6
     subGroups cell=OC cre=SE
     color 106,61,154
@@ -591,7 +591,7 @@ track OBdiff_CREs
 shortLabel OB CREs
 longLabel OB-lineage CREs (MSC, OB, dOB) split by CRE type
 compositeTrack on
-type bigBed
+type bigBed 6
 visibility dense
 dragAndDrop subTracks
 subGroup1 cell Cell_type MSC=MSC OB=OB dOB=dOB
@@ -605,7 +605,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC AP
     longLabel MSC Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ee36d4782ba6a9a2/display?to_ext=bed6
     subGroups cell=MSC cre=AP
     color 178,24,43
@@ -614,7 +614,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC PP
     longLabel MSC Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213516751519e1003015/display?to_ext=bed6
     subGroups cell=MSC cre=PP
     color 239,138,98
@@ -623,7 +623,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC AE
     longLabel MSC Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356a68df962db3c84c/display?to_ext=bed6
     subGroups cell=MSC cre=AE
     color 198,219,239
@@ -632,7 +632,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC PE
     longLabel MSC Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213567bb07cc69ea99c2/display?to_ext=bed6
     subGroups cell=MSC cre=PE
     color 217,217,217
@@ -641,7 +641,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC IE
     longLabel MSC Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213551d39d36ec5eaf47/display?to_ext=bed6
     subGroups cell=MSC cre=IE
     color 120,120,120
@@ -650,7 +650,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel MSC SE
     longLabel MSC Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351513ce803c47bf83/display?to_ext=bed6
     subGroups cell=MSC cre=SE
     color 106,61,154
@@ -661,7 +661,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB AP
     longLabel OB Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353826b653a55de97d/display?to_ext=bed6
     subGroups cell=OB cre=AP
     color 178,24,43
@@ -670,7 +670,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB PP
     longLabel OB Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352a78f89b6908d666/display?to_ext=bed6
     subGroups cell=OB cre=PP
     color 239,138,98
@@ -679,7 +679,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB AE
     longLabel OB Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135579c7ee2ef450b9f/display?to_ext=bed6
     subGroups cell=OB cre=AE
     color 107,174,214
@@ -688,7 +688,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB PE
     longLabel OB Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d606ba699f63c3a4/display?to_ext=bed6
     subGroups cell=OB cre=PE
     color 217,217,217
@@ -697,7 +697,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB IE
     longLabel OB Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a515a3c787d52d0b/display?to_ext=bed6
     subGroups cell=OB cre=IE
     color 120,120,120
@@ -706,7 +706,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel OB SE
     longLabel OB Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213584450c653e1eb3ce/display?to_ext=bed6
     subGroups cell=OB cre=SE
     color 106,61,154
@@ -717,7 +717,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB AP
     longLabel dOB Active Promoters (AP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359ff36a9d7881daf3/display?to_ext=bed6
     subGroups cell=dOB cre=AP
     color 178,24,43
@@ -726,7 +726,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB PP
     longLabel dOB Poised Promoters (PP)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350a57f620b61b53eb/display?to_ext=bed6
     subGroups cell=dOB cre=PP
     color 239,138,98
@@ -735,7 +735,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB AE
     longLabel dOB Active Enhancers (AE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cdc084fc46a12a44/display?to_ext=bed6
     subGroups cell=dOB cre=AE
     color 33,113,181
@@ -744,7 +744,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB PE
     longLabel dOB Poised Enhancers (PE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213506417d6f6a79ea3d/display?to_ext=bed6
     subGroups cell=dOB cre=PE
     color 217,217,217
@@ -753,7 +753,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB IE
     longLabel dOB Inactive Enhancers (IE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213539fe68247766c065/display?to_ext=bed6
     subGroups cell=dOB cre=IE
     color 120,120,120
@@ -762,7 +762,7 @@ priority 24
     parent OBdiff_CREs
     shortLabel dOB SE
     longLabel dOB Super-Enhancers (SE)
-    type bigBed
+    type bigBed 6
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213505bfde54cfe5a135/display?to_ext=bed6
     subGroups cell=dOB cre=SE
     color 106,61,154

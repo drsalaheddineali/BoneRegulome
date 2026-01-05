@@ -404,9 +404,9 @@ shortLabel RNA-seq
 longLabel RNA-seq bigWig (MSC, OB, dOB, MO, pOC, OC)
 compositeTrack on
 type bigWig
-#autoScale off
-#viewLimits -500:500
-#alwaysZero off
+autoScale off
+viewLimits -500:500
+alwaysZero off
 smoothingWindow 2
 visibility full
 maxHeightPixels 100:40:20

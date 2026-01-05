@@ -399,9 +399,9 @@ priority 23
 # RNA-seq
 ########################
 
-track RNAseq
+track OB_RNAseq
 shortLabel RNA-seq
-longLabel RNA-seq bigWig (MSC, OB, dOB, MO, pOC, OC)
+longLabel RNA-seq bigWig (MSC, OB, dOB)
 compositeTrack on
 type bigWig
 autoScale off
@@ -411,14 +411,13 @@ smoothingWindow 2
 visibility full
 maxHeightPixels 100:40:20
 dragAndDrop subTracks
-subGroup1 lineage Lineage OC=OC_lineage OB=OB_lineage
-subGroup2 cell Cell_type MSC=MSC OB=OB dOB=dOB MO=MO pOC=pOC OC=OC
-dimensions dimX=cell dimY=lineage
-sortOrder lineage=+ cell=+
-priority 30
+subGroup1 cell Cell_type MSC=MSC OB=OB dOB=dOB
+dimensions dimX=cell
+sortOrder cell=+
+priority 24
 
     track RNAseq_MSC
-    parent RNAseq
+    parent OB_RNAseq
     shortLabel MSC
     longLabel MSC RNA-seq (bigWig)
     type bigWig
@@ -426,7 +425,7 @@ priority 30
     color 173,216,230
 
     track RNAseq_OB
-    parent RNAseq
+    parent OB_RNAseq
     shortLabel OB
     longLabel OB RNA-seq (bigWig)
     type bigWig
@@ -434,33 +433,9 @@ priority 30
     color 70,130,180
 
     track RNAseq_dOB
-    parent RNAseq
+    parent OB_RNAseq
     shortLabel dOB
     longLabel dOB RNA-seq (bigWig)
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135db2046f76c78cdf2/display?to_ext=bigwig
     color 25,25,112
-
-    track RNAseq_MO
-    parent RNAseq
-    shortLabel MO
-    longLabel MO RNA-seq (bigWig)
-    type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f295b623bb8db05f/display?to_ext=bigwig
-    color 144,238,144
-
-    track RNAseq_pOC
-    parent RNAseq
-    shortLabel pOC
-    longLabel pOC RNA-seq (bigWig)
-    type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355564c64fa4b69b2f/display?to_ext=bigwig
-    color 60,179,113
-
-    track RNAseq_OC
-    parent RNAseq
-    shortLabel OC
-    longLabel OC RNA-seq (bigWig)
-    type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350deaa726c81ea327/display?to_ext=bigwig
-    color 0,100,0

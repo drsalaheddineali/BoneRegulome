@@ -484,3 +484,15 @@ priority 32
     type bigWig
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135db2046f76c78cdf2/display?to_ext=bigwig
     color 25,25,112
+########################
+# Hi-C – dOB
+########################
+
+track dOB_HiC
+shortLabel dOB Hi-C
+longLabel dOB Hi-C chromatin conformation (HiC)
+type hic
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bf1dff2fb9ec9827/display?to_ext=hic
+visibility dense
+color 220,20,60
+priority 40

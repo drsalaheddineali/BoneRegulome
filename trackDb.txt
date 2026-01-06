@@ -496,3 +496,73 @@ bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bf1dff2fb9ec9827/d
 visibility dense
 color 220,20,60
 priority 40
+
+########################
+# CREs (TEST: MO only)
+########################
+
+track MO_CREs
+shortLabel MO CREs
+longLabel Monocytes CREs split by CRE type (AP, PP, AE, PE, IE, SE)
+compositeTrack on
+type bigBed 6
+visibility dense
+dragAndDrop subTracks
+subGroup1 cre CRE_type AP=AP PP=PP AE=AE PE=PE IE=IE SE=SE
+dimensions dimX=cre
+sortOrder cre=+
+priority 50
+
+    track MO_CRE_AP
+    parent MO_CREs
+    shortLabel MO AP
+    longLabel Monocytes Active Promoters (AP) (<=1kb)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359492dea0397ad5bb/display?to_ext=bigbed
+    subGroups cre=AP
+    color 178,24,43
+
+    track MO_CRE_PP
+    parent MO_CREs
+    shortLabel MO PP
+    longLabel Monocytes Poised Promoters (PP) (<=1kb)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c9b44a323ab84f68/display?to_ext=bigbed
+    subGroups cre=PP
+    color 239,138,98
+
+    track MO_CRE_AE
+    parent MO_CREs
+    shortLabel MO AE
+    longLabel Monocytes Active Enhancers (AE)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135568fcfe53df8a2f4/display?to_ext=bigbed
+    subGroups cre=AE
+    color 199,233,192
+
+    track MO_CRE_PE
+    parent MO_CREs
+    shortLabel MO PE
+    longLabel Monocytes Poised Enhancers (PE)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213525690d39d3c436f2/display?to_ext=bigbed
+    subGroups cre=PE
+    color 217,217,217
+
+    track MO_CRE_IE
+    parent MO_CREs
+    shortLabel MO IE
+    longLabel Monocytes Inactive Enhancers (IE)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213522f77128ff6c0a6f/display?to_ext=bigbed
+    subGroups cre=IE
+    color 120,120,120
+
+    track MO_CRE_SE
+    parent MO_CREs
+    shortLabel MO SE
+    longLabel Monocytes Super-Enhancers (SE)
+    type bigBed 6
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fb8d4f1319aec08b/display?to_ext=bigbed
+    subGroups cre=SE
+    color 106,61,154

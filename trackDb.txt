@@ -522,7 +522,7 @@ priority 50
     shortLabel MO AP
     longLabel Monocytes Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359492dea0397ad5bb/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353f12052b03877ce0/display?to_ext=bigbed
     subGroups cell=MO cre=AP
     color 178,24,43
 
@@ -531,7 +531,7 @@ priority 50
     shortLabel MO PP
     longLabel Monocytes Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c9b44a323ab84f68/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358de2c660e142307b/display?to_ext=bigbed
     subGroups cell=MO cre=PP
     color 239,138,98
 
@@ -540,7 +540,7 @@ priority 50
     shortLabel MO AE
     longLabel Monocytes Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135568fcfe53df8a2f4/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352b9618c2993ca6fa/display?to_ext=bigbed
     subGroups cell=MO cre=AE
     color 199,233,192
 
@@ -549,7 +549,7 @@ priority 50
     shortLabel MO PE
     longLabel Monocytes Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213525690d39d3c436f2/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213539f8a37b90d95fe0/display?to_ext=bigbed
     subGroups cell=MO cre=PE
     color 217,217,217
 
@@ -558,7 +558,7 @@ priority 50
     shortLabel MO IE
     longLabel Monocytes Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213522f77128ff6c0a6f/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e8279766031d5515/display?to_ext=bigbed
     subGroups cell=MO cre=IE
     color 120,120,120
 
@@ -567,7 +567,7 @@ priority 50
     shortLabel MO SE
     longLabel Monocytes Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fb8d4f1319aec08b/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213591b4694cbb01b802/display?to_ext=bigbed
     subGroups cell=MO cre=SE
     color 106,61,154
 
@@ -580,7 +580,7 @@ priority 50
     shortLabel pOC AP
     longLabel pre-Osteoclasts Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350b1562b1f62eb41c/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352cbe2f5d1dd6dd1a/display?to_ext=bigbed
     subGroups cell=pOC cre=AP
     color 178,24,43
 
@@ -589,7 +589,7 @@ priority 50
     shortLabel pOC PP
     longLabel pre-Osteoclasts Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135232455605ce164af/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213574c4c015a49ec4bd/display?to_ext=bigbed
     subGroups cell=pOC cre=PP
     color 239,138,98
 
@@ -598,7 +598,7 @@ priority 50
     shortLabel pOC AE
     longLabel pre-Osteoclasts Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135809308a046164c3a/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ef4eed6008086ff8/display?to_ext=bigbed
     subGroups cell=pOC cre=AE
     color 116,196,118
 
@@ -607,7 +607,7 @@ priority 50
     shortLabel pOC PE
     longLabel pre-Osteoclasts Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213558c17b3f64d18ab2/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135105bcede16f3d83d/display?to_ext=bigbed
     subGroups cell=pOC cre=PE
     color 217,217,217
 
@@ -616,7 +616,7 @@ priority 50
     shortLabel pOC IE
     longLabel pre-Osteoclasts Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356f66afc01d237bad/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213520b53fc3fd045526/display?to_ext=bigbed
     subGroups cell=pOC cre=IE
     color 120,120,120
 
@@ -625,7 +625,7 @@ priority 50
     shortLabel pOC SE
     longLabel pre-Osteoclasts Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355368ec9ea89f76bd/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135badda9b1bf7f102c/display?to_ext=bigbed
     subGroups cell=pOC cre=SE
     color 106,61,154
 
@@ -638,7 +638,7 @@ priority 50
     shortLabel OC AP
     longLabel Osteoclasts Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df888895e46bbeb4/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fbb65931e0b2b4ff/display?to_ext=bigbed
     subGroups cell=OC cre=AP
     color 178,24,43
 
@@ -647,7 +647,7 @@ priority 50
     shortLabel OC PP
     longLabel Osteoclasts Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135fbf0d0e348edb547/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b92cc2dbe37c8083/display?to_ext=bigbed
     subGroups cell=OC cre=PP
     color 239,138,98
 
@@ -656,7 +656,7 @@ priority 50
     shortLabel OC AE
     longLabel Osteoclasts Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213554c570ef7dc7af4c/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135bb379e3a9be92937/display?to_ext=bigbed
     subGroups cell=OC cre=AE
     color 35,139,69
 
@@ -665,7 +665,7 @@ priority 50
     shortLabel OC PE
     longLabel Osteoclasts Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a0c543ab77a98b70/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cb807dc5470b49fa/display?to_ext=bigbed
     subGroups cell=OC cre=PE
     color 217,217,217
 
@@ -674,7 +674,7 @@ priority 50
     shortLabel OC IE
     longLabel Osteoclasts Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e6bb94763f888690/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b91df08b91301acd/display?to_ext=bigbed
     subGroups cell=OC cre=IE
     color 120,120,120
 
@@ -683,7 +683,7 @@ priority 50
     shortLabel OC SE
     longLabel Osteoclasts Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f4e0d91ca737b935/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e18073ddfd29eb9b/display?to_ext=bigbed
     subGroups cell=OC cre=SE
     color 106,61,154
 
@@ -696,7 +696,7 @@ priority 50
     shortLabel MSC AP
     longLabel Mesenchymal Stromal Cells Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b088dc0ba7283f78/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a59b7545aafea233/display?to_ext=bigbed
     subGroups cell=MSC cre=AP
     color 178,24,43
 
@@ -705,7 +705,7 @@ priority 50
     shortLabel MSC PP
     longLabel Mesenchymal Stromal Cells Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e040514add303d21/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135afdc86fd1be81263/display?to_ext=bigbed
     subGroups cell=MSC cre=PP
     color 239,138,98
 
@@ -714,7 +714,7 @@ priority 50
     shortLabel MSC AE
     longLabel Mesenchymal Stromal Cells Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353efac622a170bb95/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354b34037c5ccc3176/display?to_ext=bigbed
     subGroups cell=MSC cre=AE
     color 198,219,239
 
@@ -723,7 +723,7 @@ priority 50
     shortLabel MSC PE
     longLabel Mesenchymal Stromal Cells Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359317b7f2290d4e0f/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213541b9574957626411/display?to_ext=bigbed
     subGroups cell=MSC cre=PE
     color 217,217,217
 
@@ -732,7 +732,7 @@ priority 50
     shortLabel MSC IE
     longLabel Mesenchymal Stromal Cells Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a083a07e14669fbe/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352ec0b4b0303feebc/display?to_ext=bigbed
     subGroups cell=MSC cre=IE
     color 120,120,120
 
@@ -741,7 +741,7 @@ priority 50
     shortLabel MSC SE
     longLabel Mesenchymal Stromal Cells Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213566a052041713078e/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f016b59892423550/display?to_ext=bigbed
     subGroups cell=MSC cre=SE
     color 106,61,154
 
@@ -754,7 +754,7 @@ priority 50
     shortLabel OB AP
     longLabel Osteoblasts Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a06140fc0d8d537a/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213581d92e2f539bd972/display?to_ext=bigbed
     subGroups cell=OB cre=AP
     color 178,24,43
 
@@ -763,7 +763,7 @@ priority 50
     shortLabel OB PP
     longLabel Osteoblasts Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352605880b0e58131e/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c6bafe69a28e9d76/display?to_ext=bigbed
     subGroups cell=OB cre=PP
     color 239,138,98
 
@@ -772,7 +772,7 @@ priority 50
     shortLabel OB AE
     longLabel Osteoblasts Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135ab899f6dc0d76c55/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213527659e0c8f50a53e/display?to_ext=bigbed
     subGroups cell=OB cre=AE
     color 107,174,214
 
@@ -781,7 +781,7 @@ priority 50
     shortLabel OB PE
     longLabel Osteoblasts Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cd216f8083cbacd6/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213598e2505c1f5e8a35/display?to_ext=bigbed
     subGroups cell=OB cre=PE
     color 217,217,217
 
@@ -790,7 +790,7 @@ priority 50
     shortLabel OB IE
     longLabel Osteoblasts Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721353d2fed80eec01ab2/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c1f86e4aba0395cb/display?to_ext=bigbed
     subGroups cell=OB cre=IE
     color 120,120,120
 
@@ -799,7 +799,7 @@ priority 50
     shortLabel OB SE
     longLabel Osteoblasts Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357fedc2eeb020e0db/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a64ffd558a931c6c/display?to_ext=bigbed
     subGroups cell=OB cre=SE
     color 106,61,154
 
@@ -812,7 +812,7 @@ priority 50
     shortLabel dOB AP
     longLabel differentiated Osteoblasts Active Promoters (AP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213568f5e83bb7c34914/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b93a22020ec99b1a/display?to_ext=bigbed
     subGroups cell=dOB cre=AP
     color 178,24,43
 
@@ -821,7 +821,7 @@ priority 50
     shortLabel dOB PP
     longLabel differentiated Osteoblasts Poised Promoters (PP) (<=1kb)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135214096c692ff4e09/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135a5b4f2e78acc5f19/display?to_ext=bigbed
     subGroups cell=dOB cre=PP
     color 239,138,98
 
@@ -830,7 +830,7 @@ priority 50
     shortLabel dOB AE
     longLabel differentiated Osteoblasts Active Enhancers (AE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135155a18981ee9f2cb/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e113330de5cf5de4/display?to_ext=bigbed
     subGroups cell=dOB cre=AE
     color 33,113,181
 
@@ -839,7 +839,7 @@ priority 50
     shortLabel dOB PE
     longLabel differentiated Osteoblasts Poised Enhancers (PE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135940d3b2cb0df5383/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350eaaa2083ec0ab2e/display?to_ext=bigbed
     subGroups cell=dOB cre=PE
     color 217,217,217
 
@@ -848,7 +848,7 @@ priority 50
     shortLabel dOB IE
     longLabel differentiated Osteoblasts Inactive Enhancers (IE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721351e5fff05cead5c49/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135e514b5d900912115/display?to_ext=bigbed
     subGroups cell=dOB cre=IE
     color 120,120,120
 
@@ -857,6 +857,6 @@ priority 50
     shortLabel dOB SE
     longLabel differentiated Osteoblasts Super-Enhancers (SE)
     type bigBed 6
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213518337bad66c6c6b0/display?to_ext=bigbed
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357f8338dd9b532db4/display?to_ext=bigbed
     subGroups cell=dOB cre=SE
     color 106,61,154

@@ -860,3 +860,57 @@ priority 50
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357f8338dd9b532db4/display?to_ext=bigbed
     subGroups cell=dOB cre=SE
     color 106,61,154
+
+########################
+# ENCODE-style cCREs (lineage-level)
+########################
+
+# -----------------------
+# OC lineage: MO + pOC + OC (AP/PP/AE/PE/IE in one track; itemRgb)
+# -----------------------
+track OCdiff_cCREs
+shortLabel OC cCREs
+longLabel OC-lineage cCRE-style CREs (MO, pOC, OC; AP/PP/AE/PE/IE encoded by color)
+type bigBed 9
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135304ee51ffcf01c14/display?to_ext=bigbed
+visibility dense
+itemRgb on
+priority 60
+
+# -----------------------
+# OC lineage SE (separate)
+# -----------------------
+track OCdiff_SE
+shortLabel OC SE
+longLabel OC-lineage Super-Enhancers (SE)
+type bigBed 6
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135766dadfbea532e51/display?to_ext=bigbed
+visibility dense
+color 106,61,154
+priority 61
+
+
+# -----------------------
+# OB lineage: MSC + OB + dOB (AP/PP/AE/PE/IE in one track; itemRgb)
+# -----------------------
+track OBdiff_cCREs
+shortLabel OB cCREs
+longLabel OB-lineage cCRE-style CREs (MSC, OB, dOB; AP/PP/AE/PE/IE encoded by color)
+type bigBed 9
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135483fed3bd0eef9ce/display?to_ext=bigbed
+visibility dense
+itemRgb on
+priority 62
+
+# -----------------------
+# OB lineage SE (separate)
+# -----------------------
+track OBdiff_SE
+shortLabel OB SE
+longLabel OB-lineage Super-Enhancers (SE)
+type bigBed 6
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135766dadfbea532e51/display?to_ext=bigbed
+visibility dense
+color 106,61,154
+priority 63
+

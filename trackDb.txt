@@ -450,7 +450,7 @@ longLabel RNA-seq OB differentiation (MSC, OB, dOB)
 compositeTrack on
 type bigWig
 autoScale off
-viewLimits -500:500
+viewLimits 0:200
 alwaysZero off
 smoothingWindow 2
 visibility full
@@ -466,7 +466,7 @@ priority 32
     shortLabel MSC
     longLabel MSC RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c9f8b5a31adcb35f/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356f741a7cecf947a2/display?to_ext=bigwig
     color 173,216,230
 
     track RNAseq_OB
@@ -474,7 +474,7 @@ priority 32
     shortLabel OB
     longLabel OB RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213587e64f29ce0285a6/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b94cde08ca0c8b2a/display?to_ext=bigwig
     color 70,130,180
 
     track RNAseq_dOB
@@ -482,7 +482,7 @@ priority 32
     shortLabel dOB
     longLabel dOB RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135db2046f76c78cdf2/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213530a1c81fdcf604be/display?to_ext=bigwig
     color 25,25,112
 ########################
 # Hi-C – dOB

@@ -406,7 +406,6 @@ compositeTrack on
 type bigWig
 autoScale off
 alwaysZero off
-viewLimits 0:500
 smoothingWindow 2
 visibility full
 maxHeightPixels 100:40:20

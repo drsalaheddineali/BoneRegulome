@@ -494,7 +494,7 @@ longLabel dOB Hi-C chromatin conformation (HiC)
 type hic
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c256f7b4dbdc5000/display?to_ext=hic
 visibility dense
-color 25,25,112
+color 0,0,100
 priority 40
 
 ########################

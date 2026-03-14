@@ -405,8 +405,8 @@ longLabel RNA-seq OC differentiation (MO, pOC, OC)
 compositeTrack on
 type bigWig
 autoScale off
-viewLimits 500
 alwaysZero off
+viewLimits 0:500
 smoothingWindow 2
 visibility full
 maxHeightPixels 100:40:20

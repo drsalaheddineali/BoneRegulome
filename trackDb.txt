@@ -405,7 +405,7 @@ longLabel RNA-seq OC differentiation (MO, pOC, OC)
 compositeTrack on
 type bigWig
 autoScale off
-viewLimits -500:500
+viewLimits 500
 alwaysZero off
 smoothingWindow 2
 visibility full
@@ -421,7 +421,7 @@ priority 31
     shortLabel MO
     longLabel MO RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f295b623bb8db05f/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355f4591c9eddb181a/display?to_ext=bigwig
     color 144,238,144
 
     track RNAseq_pOC
@@ -429,7 +429,7 @@ priority 31
     shortLabel pOC
     longLabel pOC RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355564c64fa4b69b2f/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135593332ae160d9bb5/display?to_ext=bigwig
     color 60,179,113
 
     track RNAseq_OC
@@ -437,7 +437,7 @@ priority 31
     shortLabel OC
     longLabel OC RNA-seq
     type bigWig
-    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350deaa726c81ea327/display?to_ext=bigwig
+    bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d586bfeee714f6f9/display?to_ext=bigwig
     color 0,100,0
 
 ########################

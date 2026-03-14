@@ -404,6 +404,7 @@ shortLabel RNA-seq OC
 longLabel RNA-seq OC differentiation (MO, pOC, OC)
 compositeTrack on
 type bigWig
+viewLimits 0:500
 autoScale off
 alwaysZero off
 smoothingWindow 2
